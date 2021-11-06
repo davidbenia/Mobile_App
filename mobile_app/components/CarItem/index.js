@@ -17,7 +17,7 @@ const CarItem = (props) => {
           {subtitle}{" "}
           <TouchableOpacity
             style={styles.subtitle}
-            onPress={() => alert("i wish i belonged")}
+            onPress={() => alert("test")}
           >
             <Text style={[styles.subtitleButton, styles.subtitle]}>
               {subtitleButton}
@@ -31,13 +31,13 @@ const CarItem = (props) => {
           style={styles.primaryButton}
           type="primary"
           content={"Custom Order"}
-          onPress={() => alert("Mlea")}
+          onPress={() => alert("test")}
         />
         <StyledButton
           style={styles.secondaryButton}
           type="secondary"
           content={"Existing Inventory"}
-          onPress={() => alert("Ily")}
+          onPress={() => alert("test")}
         />
       </View>
     </View>
